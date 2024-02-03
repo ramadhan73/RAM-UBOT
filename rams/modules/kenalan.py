@@ -23,13 +23,13 @@ async def _(event):
 # Create by myself @localheart
 
 
-@ram_cmd(pattern='semangat(?: |$)(.*)')
+@ram_cmd(pattern='Hts(?: |$)(.*)')
 async def _(event):
     await eor(event, "`Apapun Yang Terjadi`")
     sleep(3)
-    await eor(event, "`Tetaplah Bernapas`")
+    await eor(event, "`Tetaplah jadi sekencois `")
     sleep(1)
-    await eor(event, "`Dan Selalu Bersyukur`")
+    await eor(event, "`Walau ga di cois cois`")
 # Create by myself @localheart
 
 CMD_HELP.update(
